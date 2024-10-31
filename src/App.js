@@ -6,7 +6,7 @@ import WeekDay from "./components/WeekDay";
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(false);
-  const [geoLoc, setGeoLoc] = useState({ latitude: null, longitude: null });
+  const [, setGeoLoc] = useState({ latitude: null, longitude: null });
   const [weatherUnits, setWeatherUnits] = useState({});
   const [weatherData, setWeatherData] = useState([]);
 
